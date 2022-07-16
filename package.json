@@ -24,14 +24,8 @@
   },
   "workspaces": {
     "packages": [
-      "frontend",
-      "backend"
-    ],
-    "nohoist": [
-      "**/backend",
-      "**/backend/**",
-      "**/frontend",
-      "**/frontend/**"
+      "packages/frontend",
+      "packages/backend"
     ]
   }
 }
